@@ -1,6 +1,10 @@
-import { Text, TouchableOpacity, TouchableOpacityProps, ActivityIndicator } from "react-native";
+import { Text,
+  TouchableOpacity,
+  TouchableOpacityProps,
+  ActivityIndicator
+} from "react-native";
 
-type Props = TouchableOpacityProps  & {
+type Props = TouchableOpacityProps & {
   title: string
   isLoading?: boolean
 }
